@@ -4,19 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu burger seulement en HTML et CSS</title>
+    <title>Barre de navigation responsive</title>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <nav>
-        <div class="main_pages">
-            <a href="#">A propos</a>
-            <a href="#">Expérience</a>
-            <a href="#">Contact</a>
-        </div>
-    </nav>
+    <div id="container">
+        <header>
+            <nav>
+                <label for="toggle">☰</label>
+                <input type="checkbox" id="toggle">
+                <div class="main_pages">
+                    <div id="LOGO">LOGO</div>
+                    <a href="#">A propos</a>
+                    <a href="#">Expérience</a>
+                    <a href="#">Contact</a>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <h1>Mon titre niveau 1</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis dolorum vel ad distinctio voluptate
+                suscipit earum, ab facere commodi, quae fuga eveniet. Velit expedita autem saepe totam mollitia dolorum
+                quam.</p>
+        </main>
+    </div>
 </body>
 
 </html>
